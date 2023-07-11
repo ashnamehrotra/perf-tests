@@ -44,7 +44,7 @@ const (
 	namespace       = "preload"
 	daemonsetName   = "preload"
 	pollingInterval = 5 * time.Second
-	pollingTimeout  = time.Hour
+	pollingTimeout  = 2 * time.Hour
 )
 
 var (
